@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/inicioFragment">
+
+
+    <fragment
+        android:id="@+id/altaObjetoPerdidoFragment"
+        android:name="com.example.tp_grupo6_seminario.AltaObjetoPerdidoFragment"
+        android:label="fragment_alta_objeto_perdido"
+        tools:layout="@layout/fragment_alta_objeto_perdido" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.tp_grupo6_seminario.inicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio"
+        android:launchMode="singleTop"/>
+    <fragment
+        android:id="@+id/notificacionesFragment"
+        android:name="com.example.tp_grupo6_seminario.NotificacionesFragment"
+        android:label="fragment_notificaciones"
+        tools:layout="@layout/fragment_notificaciones"
+        android:launchMode="singleTop"/>
+    <fragment
+        android:id="@+id/altaObjetoEncontradoFragment"
+        android:name="com.example.tp_grupo6_seminario.altaObjetoEncontradoFragment"
+        android:label="fragment_alta_objeto_encontrado"
+        tools:layout="@layout/fragment_alta_objeto_encontrado" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.tp_grupo6_seminario.chatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/perfilUsuarioFragment"
+        android:name="com.example.tp_grupo6_seminario.perfilUsuarioFragment"
+        android:label="fragment_perfil_usuario"
+        tools:layout="@layout/fragment_perfil_usuario" />
+    <fragment
+        android:id="@+id/mensajeriaInternaFragment"
+        android:name="com.example.tp_grupo6_seminario.mensajeriaInternaFragment"
+        android:label="fragment_mensajeria_interna"
+        tools:layout="@layout/fragment_mensajeria_interna" />
+    <fragment
+        android:id="@+id/reportesFragment"
+        android:name="com.example.tp_grupo6_seminario.reportesFragment"
+        android:label="fragment_reportes"
+        tools:layout="@layout/fragment_reportes" />
+    <fragment
+        android:id="@+id/bajaUsuarioFragment"
+        android:name="com.example.tp_grupo6_seminario.BajaUsuarioFragment"
+        android:label="fragment_baja_usuario"
+        tools:layout="@layout/fragment_baja_usuario" />
+    <fragment
+        android:id="@+id/ContactarSoporteFragment"
+        android:name="com.example.tp_grupo6_seminario.ContactarSoporteFragment"
+        android:label="fragment_contactar_soporte"
+        tools:layout="@layout/fragment_contactar_soporte"/>
+    <fragment
+        android:id="@+id/VerMapaFragment"
+        android:name="com.example.tp_grupo6_seminario.VerMapaFragment"
+        android:label="fragment_ver_mapa"
+        tools:layout="@layout/fragment_ver_mapa"/>
+    <fragment
+        android:id="@+id/editarUsuario"
+        android:name="com.example.tp_grupo6_seminario.EditarUsuario"
+        android:label="fragment_editar_usuario"
+        tools:layout="@layout/fragment_editar_usuario" />
+    <fragment
+        android:id="@+id/ObjetoDetalleFragment"
+        android:name="com.example.tp_grupo6_seminario.ObjetoDetalleFragment"
+        android:label="fragment_objeto_detalle"
+        tools:layout="@layout/fragment_objeto_detalle" />
+    <fragment
+        android:id="@+id/perfilUsuarioSeleccionadoFragment"
+        android:name="com.example.tp_grupo6_seminario.perfilUsuarioSeleccionadoFragment"
+        android:label="fragment_perfil_usuario_seleccionado"
+        tools:layout="@layout/fragment_perfil_usuario_seleccionado" />
+    <fragment
+        android:id="@+id/panelAdministracionFragment"
+        android:name="com.example.tp_grupo6_seminario.panelAdministracionFragment"
+        android:label="fragment_panel_administracion"
+        tools:layout="@layout/fragment_panel_administracion" />
+    <fragment
+        android:id="@+id/editarBajaPublicacionFragment"
+        android:name="com.example.tp_grupo6_seminario.EditarBajaPublicacionFragment"
+        android:label="fragment_editar_baja_publicacion"
+        tools:layout="@layout/fragment_editar_baja_publicacion" />
+    <fragment
+        android:id="@+id/editarPublicacionFragment"
+        android:name="com.example.tp_grupo6_seminario.EditarPublicacionFragment"
+        android:label="fragment_editar_publicacion"
+        tools:layout="@layout/fragment_editar_publicacion" />
+    <fragment
+        android:id="@+id/altaUsuarioModAdmFragment"
+        android:name="com.example.tp_grupo6_seminario.AltaUsuarioModAdmFragment"
+        android:label="fragment_alta_usuario_mod_adm"
+        tools:layout="@layout/fragment_alta_usuario_mod_adm" />
+    <fragment
+        android:id="@+id/bajaUsuarioModAdmFragment"
+        android:name="com.example.tp_grupo6_seminario.BajaUsuarioModAdmFragment"
+        android:label="fragment_baja_usuario_mod_adm"
+        tools:layout="@layout/fragment_baja_usuario_mod_adm" />
+    <fragment
+        android:id="@+id/MisPublicacionesFragment"
+        android:name="com.example.tp_grupo6_seminario.MisPublicacionesFragment"
+        android:label="fragment_mis_publicaciones"
+        tools:layout="@layout/fragment_mis_publicaciones" />
+</navigation>

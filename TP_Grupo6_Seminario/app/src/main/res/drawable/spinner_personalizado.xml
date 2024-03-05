@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="50dp" />
+            <solid android:color="#DDDDDD" />
+        </shape>
+    </item>
+    <item
+        android:right="8dp"
+        android:drawable="@drawable/flecha_spinner_foreground"
+    android:gravity="end|center_vertical">
+    </item>
+</layer-list>

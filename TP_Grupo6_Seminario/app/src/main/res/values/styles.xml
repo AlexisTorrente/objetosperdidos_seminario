@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MenuItemColorIcono">
+        <item name="itemIconTint">@drawable/item_menu_seleccion</item>
+        <item name="itemTextColor">@drawable/item_menu_seleccion</item>
+    </style>
+
+    <style name="MenuItemText">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarBajaPublicacionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/aileron_bold_font"
+            android:gravity="center_horizontal"
+            android:text="Editar o dar de baja publicación"
+            android:textColor="#4D4C4C"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:gravity="center_horizontal"
+            android:text="INGRESE EL ID DE LA PUBLICACIÓN"
+            android:textColor="#1C2120"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etIdPublicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_personalizado"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingStart="5dp" />
+
+        <Button
+            android:id="@+id/btnBuscarIdPub"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:text="BUSCAR"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/pbBaja"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvIdPub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivPublicacion"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icono_usuario_generico" />
+
+        <TextView
+            android:id="@+id/tvTituloPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/dm_sans"
+            android:lineSpacingExtra="12sp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEditarPub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/boton_iniciarsesion"
+                android:fontFamily="@font/poppins_bold"
+                android:text="EDITAR"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnBajaPub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_iniciarsesion"
+                android:fontFamily="@font/poppins_bold"
+                android:text="BAJA"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

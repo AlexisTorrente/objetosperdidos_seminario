@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AltaUsuarioModAdmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/aileron_bold_font"
+            android:gravity="center_horizontal"
+            android:text="@string/registrar_moderador_o_administrador"
+            android:textColor="#4D4C4C"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/dm_sans"
+            android:letterSpacing="0.1"
+            android:text="INGRESE EL ID DEL USUARIO O NOMBRE DEL USUARIO" />
+
+        <EditText
+            android:id="@+id/etIdUsuarioONombreAltaModADM"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edittext_personalizado"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="5dp" />
+
+        <Button
+            android:id="@+id/btnBuscarUsuarioAltaModADM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:fontFamily="@font/poppins_bold"
+            android:text="BUSCAR"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="DATOS DEL USUARIO ENCONTRADO"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/tvIDAltaModADM"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#DDDDDD"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="NOMBRE DE USUARIO" />
+
+        <TextView
+            android:id="@+id/tvNombreUsuarioAltaModADM"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#DDDDDD"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="NOMBRE Y APELLIDO" />
+
+        <TextView
+            android:id="@+id/tvNombreyApellidoAltaModADM"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#DDDDDD"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="CORREO ELECTRONICO" />
+
+        <TextView
+            android:id="@+id/tvCorreoElectronicoAltaModADM"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#DDDDDD"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_sans"
+            android:text="PROVINCIA Y LOCALIDAD" />
+
+        <TextView
+            android:id="@+id/tvProvinciaLocalidadAltaModADM"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="#DDDDDD"
+            android:fontFamily="@font/dm_sans" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAlta_ADM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/boton_iniciarsesion"
+                android:fontFamily="@font/poppins_bold"
+                android:foregroundGravity="bottom"
+                android:text="Hacer Administrador"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnAlta_MOD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/boton_iniciarsesion"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Hacer Moderador"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbUsuarioAltaModADM"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp" />
+
+</FrameLayout>

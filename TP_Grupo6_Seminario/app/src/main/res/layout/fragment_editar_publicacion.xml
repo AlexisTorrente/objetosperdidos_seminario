@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarPublicacionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aileron_bold_font"
+            android:text="@string/publicacion_editar_publicacion"
+            android:textColor="#4D4C4C"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_titulo_de_publicacion"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/tvTipoPublicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="TIPO PUBLICACION"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spTipoPublicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:id="@+id/tvTipoObjeto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_tipo_de_objeto"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spTipoObjeto"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:id="@+id/tvImagen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_imagen_opcional"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen"
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/btnSelecImagen"
+                        android:layout_width="240dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/edittext_personalizado"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/publicacion_subir_archivo"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_fecha"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:hint="@string/pista_fecha"
+                    android:inputType="datetime|date"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/tvRangoHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_rango_horario_opcional"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etRangoHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:hint="@string/publicacion_pista_rango_horario"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/tvProvincia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/provincia"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spProvincia"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:id="@+id/tvLocalidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/localidad"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spLocalidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:id="@+id/tvPosUbicaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_posibles_ubicaciones"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etPosUbicaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/tvDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/publicacion_descripcion"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <Button
+                    android:id="@+id/btnAplicarCambiosEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/boton_iniciarsesion"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/aplicar_cambios"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

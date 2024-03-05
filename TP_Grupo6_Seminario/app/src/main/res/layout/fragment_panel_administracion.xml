@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panelAdministracionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:gravity="center_horizontal"
+            android:text="Panel administración"
+            android:textColor="#4D4C4C"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnEditBajaPublicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:fontFamily="@font/dm_sans"
+            android:text="EDITAR O DAR DE BAJA PUBLICACIÓN"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnBajaUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:fontFamily="@font/dm_sans"
+            android:text="DAR DE BAJA USUARIO"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAltaModAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/registrar_moderador_o_administrador"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnBaja_MOD_ADM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boton_iniciarsesion"
+            android:fontFamily="@font/dm_sans"
+            android:text="DAR DE BAJA MOD O ADMIN"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+</FrameLayout>

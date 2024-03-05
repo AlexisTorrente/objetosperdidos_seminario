@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TP_Grupo6_Seminario</string>
+    <string name="title_activity_navigation_drawer">activity_navigation_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+
+    <!-- Strings Menu -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_mensajes">Mensajes</string>
+    <string name="menu_mis_publicaciones">Mis publicaciones</string>
+    <string name="menu_alta_perdido">Alta objeto perdido</string>
+    <string name="menu_alta_encontrado">Alta objeto encontrado</string>
+    <string name="menu_mapa">Mapa</string>
+    <string name="menu_reportes">Reportes</string>
+    <string name="menu_soporte">Contactar soporte</string>
+    <string name="menu_cerrar_sesion">Cerrar sesion</string>
+
+    <!-- String Publicaciones -->
+    <string name="publicacion_btn_publicar">Publicar</string>
+    <string name="publicar_objeto_encontrado">Publicar objeto encontrado</string>
+    <string name="publicar_objeto_perdido">Publicar objeto perdido</string>
+    <string name="publicacion_imagen_opcional">IMAGEN (OPCIONAL)</string>
+    <string name="publicacion_subir_archivo">SUBIR ARCHIVO</string>
+    <string name="publicacion_fecha">FECHA</string>
+    <string name="publicacion_rango_horario_opcional">RANGO HORARIO (OPCIONAL)</string>
+    <string name="publicacion_posibles_ubicaciones">POSIBLES UBICACIONES</string>
+    <string name="publicacion_descripcion">DESCRIPCION</string>
+    <string name="publicacion_titulo_de_publicacion">TITULO DE PUBLICACION</string>
+    <string name="publicacion_tipo_de_objeto">TIPO DE OBJETO</string>
+    <string name="publicacion_ubicacion">UBICACION</string>
+    <string name="publicacion_editar_publicacion">Editar Publicación</string>
+    <string name="publicacion_pista_rango_horario">ej: 10:00 – 12:00</string>
+
+
+    <!-- String Usuarios -->
+    <string name="usuario_nombre">NOMBRE</string>
+    <string name="usuario_apellido">APELLIDO</string>
+    <string name="usuario_dni">DNI</string>
+    <string name="usuario_fecha_de_nacimiento">FECHA DE NACIMIENTO</string>
+    <string name="usuario_correo_electronico">CORREO ELECTRÓNICO</string>
+    <string name="usuario_genero">GENERO</string>
+    <string name="usuario_usuario">USUARIO</string>
+    <string name="usuario_contrasenia">CONTRASEÑA</string>
+    <string name="usuario_repetir_contrasenia">REPETIR CONTRASEÑA</string>
+    <string name="usuario_registrarse">Registrarse</string>
+    <string name="usuario_crear_usuario">Crear usuario</string>
+    <string name="usuario_tipo_usuario">TIPO USUARIO</string>
+
+    <!-- String miscelaneos -->
+    <string name="provincia">PROVINCIA</string>
+    <string name="localidad">LOCALIDAD</string>
+    <string name="pista_fecha">dd/mm/aaaa</string>
+    <string name="aplicar_cambios">APLICAR CAMBIOS</string>
+
+    <!-- String Administracion -->
+    <string name="registrar_moderador_o_administrador">REGISTRAR MODERADOR O ADMINISTRADOR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

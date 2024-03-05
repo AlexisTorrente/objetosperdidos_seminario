@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarUsuario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/aileron_bold_font"
+            android:text="Editar usuario"
+            android:textColor="#4D4C4C"
+            android:textSize="60sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_nombre"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etNombreEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_apellido"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etApellidoEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_fecha_de_nacimiento"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etFechaNacUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:hint="@string/pista_fecha"
+                    android:inputType="datetime|date"
+                    android:maxLength="10"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_correo_electronico"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etCorreoEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_genero"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spGeneroEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/provincia"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spProvinciaEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/localidad"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spLocalidadEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/spinner_personalizado" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:letterSpacing="0.1"
+                    android:text="@string/usuario_usuario"
+                    android:textColor="#1C2120"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etUsuarioEditarUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/edittext_personalizado"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:maxLength="25"
+                    android:paddingLeft="5dp" />
+
+                <Button
+                    android:id="@+id/btnActualizarEditarUsr"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/boton_iniciarsesion"
+                    android:fontFamily="@font/poppins_bold"
+                    android:onClick="registrarUsuario"
+                    android:text="Actualizar datos"
+                    android:textColor="#FFF6F6"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

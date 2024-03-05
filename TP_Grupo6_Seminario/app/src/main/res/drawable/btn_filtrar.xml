@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners
+                        android:bottomRightRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topLeftRadius="50dp" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="#000000" />
+                    <solid android:color="@color/color_fondo_toolbar" /> <!-- Cambia a tu color de presión -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners
+                        android:bottomRightRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topLeftRadius="50dp" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="#000000" />
+                    <solid android:color="#FFFFFF" /> <!-- Color normal del botón -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
